@@ -1,0 +1,527 @@
+<!DOCTYPE html>
+<html lang="ru" data-bs-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learn Russian - Изучение русского языка</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.0/font/bootstrap-icons.css">
+
+    <link rel="stylesheet" href="./static/css/style.css">
+    
+
+    <link rel="icon" href="images/logo.png" type="image/png">
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top shadow">
+        <div class="container">
+            <a class="navbar-brand d-flex align-items-center" href="index.html">
+                <img src="./static/img/logo.png" alt="Learn Russian Logo" height="40" class="me-2">
+                <span class="fw-bold">Learn Russian</span>
+            </a>
+            
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="index.html">Main</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#courses">Cources</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#tutors">Tutors</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="dashboard.html">Account</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contacts</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div id="notification-area" class="container mt-5 pt-5"></div>
+
+    <header class="bg-light py-5 mt-5">
+        <div class="container py-5">
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <h1 class="display-4 fw-bold mb-3";">Изучайте русский язык с нами!</h1>
+                    <p class="lead mb-4">Welcome to our language school! Discover the richness of the Russian language and culture through our specialized courses.</p>
+                    <a href="#courses" class="btn btn-primary btn-lg px-4">Start learning</a>
+                </div>
+                <div class="col-lg-6">
+                    <img src="./static/img/main.jpg" 
+                         alt="Изучение языков" class="img-fluid rounded shadow">
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section id="about" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-5">About our language school</h2>
+            <div class="row">
+                <div class="col-lg-8 mx-auto">
+                    <div class="card border-0 shadow">
+                        <div class="card-body p-4">
+                            <h3 class="card-title h4 mb-3">Our mission</h3>
+                            <p class="card-text">We provide a high-quality education for anyone interested in learning Russian. Our school offers a variety of courses for all levels of proficiency, from beginners to advanced.</p>
+                            <p class="card-text">Our goal is not only to teach you the language, but also to introduce you to the rich Russian culture, history, and traditions.</p>
+                            <div class="mt-4">
+                                <h4 class="h5 mb-3">What we offer:</h4>
+                                <ul class="list-unstyled">
+                                    <li class="mb-2"><i class="bi bi-check-circle-fill text-success me-2"></i>Certified teachers</li>
+                                    <li class="mb-2"><i class="bi bi-check-circle-fill text-success me-2"></i>Interactive classes</li>
+                                    <li class="mb-2"><i class="bi bi-check-circle-fill text-success me-2"></i>Flexible learning schedule</li>
+                                    <li class="mb-2"><i class="bi bi-check-circle-fill text-success me-2"></i>Modern teaching methods</li>
+                                    <li class="mb-2"><i class="bi bi-check-circle-fill text-success me-2"></i>Exam preparation</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center mb-5">Advantages of learning Russian</h2>
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="card h-100 border-0 shadow-sm">
+                        <div class="card-body text-center p-4">
+                            <div class="mb-3">
+                                <i class="bi bi-globe text-primary display-5"></i>
+                            </div>
+                            <h3 class="card-title h5">International language</h3>
+                            <p class="card-text">Russian is widely spoken all over the world and is one of the official languages of the United Nations.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card h-100 border-0 shadow-sm">
+                        <div class="card-body text-center p-4">
+                            <div class="mb-3">
+                                <i class="bi bi-book text-primary display-5"></i>
+                            </div>
+                            <h3 class="card-title h5">Rich culture</h3>
+                            <p class="card-text">Immerse yourself in the world of Russian literature, art, and music. Understand the works of Tolstoy, Dostoevsky, and Tchaikovsky in their original languages.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card h-100 border-0 shadow-sm">
+                        <div class="card-body text-center p-4">
+                            <div class="mb-3">
+                                <i class="bi bi-briefcase text-primary display-5"></i>
+                            </div>
+                            <h3 class="card-title h5">Career opportunities</h3>
+                            <p class="card-text">Discover new opportunities in international business, diplomacy, science, and tourism.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="courses" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-5">Our cources</h2>
+            
+            <div class="row mb-4">
+                <div class="col-lg-8 mx-auto">
+                    <div class="card shadow-sm">
+                        <div class="card-body">
+                            <form id="course-search-form">
+                                <div class="row g-3">
+                                    <div class="col-md-6">
+                                        <label for="course-name" class="form-label">Cource name</label>
+                                        <input type="text" class="form-control" id="course-name" placeholder="Введите название курса">
+                                    </div>
+                                    <div class="col-md-6">
+                                        <label for="course-level" class="form-label">Level</label>
+                                        <select class="form-select" id="course-level">
+                                            <option value="">All levels</option>
+                                            <option value="Beginner">Elementary</option>
+                                            <option value="Intermediate">Middle</option>
+                                            <option value="Advanced">Advanced</option>
+                                        </select>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="courses-container" class="row g-4">
+
+            </div>
+
+            <nav id="courses-pagination" class="mt-5 d-flex justify-content-center">
+
+            </nav>
+        </div>
+    </section>
+    <section id="tutors" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-5">Our tutors</h2>
+            
+            <div class="row mb-4">
+                <div class="col-lg-8 mx-auto">
+                    <div class="card shadow-sm">
+                        <div class="card-body">
+                            <form id="tutor-search-form">
+                                <div class="row g-3">
+                                    <div class="col-md-6">
+                                        <label for="tutor-language" class="form-label">Teaching Language</label>
+                                        <select class="form-select" id="tutor-language">
+                                            <option value="">All languages</option>
+
+                                        </select>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <label for="tutor-level" class="form-label">Language level</label>
+                                        <select class="form-select" id="tutor-level">
+                                            <option value="">All levels</option>
+                                            <option value="Beginner">Elementary</option>
+                                            <option value="Intermediate">Middle</option>
+                                            <option value="Advanced">Advanced</option>
+                                        </select>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="table-responsive">
+                <table class="table table-hover" id="tutors-table">
+                    <thead>
+                        <tr>
+                            <th>Tutor's name</th>
+                            <th>Level of language</th>
+                            <th>Teaching language</th>
+                            <th>Experience (years)</th>
+                            <th>Bet (rub./hour)</th>
+                            <th>Actions</th>
+                        </tr>
+                    </thead>
+                    <tbody id="tutors-body">
+
+                    </tbody>
+                </table>
+            </div>
+
+            <div class="text-center mt-4">
+                <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#tutorRequestModal">
+                    Request a lesson with a tutor
+                </button>
+            </div>
+        </div>
+    </section>
+	<!-- Карта учебных ресурсов -->
+	<section id="resources-map" class="py-5 bg-light">
+		<div class="container">
+			<h2 class="text-center mb-5">Interactive map of educational resources</h2>
+        
+			<div class="row mb-4">
+				<div class="col-lg-8 mx-auto">
+					<div class="card shadow-sm">
+						<div class="card-body">
+							<div class="input-group">
+								<input type="text" class="form-control" id="map-search" placeholder="Поиск: языковые курсы, библиотеки, кафе...">
+								<button class="btn btn-primary" id="map-search-btn">
+									<i class="bi bi-search"></i> Search
+								</button>
+							</div>
+                        
+							<div class="row mt-3 g-2" id="map-filters">
+								<div class="col-6 col-md-3">
+									<div class="form-check">
+										<input class="form-check-input" type="checkbox" id="filter-education" checked>
+										<label class="form-check-label" for="filter-education">
+											Educational institutions
+										</label>
+									</div>
+                            </div>
+                            <div class="col-6 col-md-3">
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" id="filter-libraries" checked>
+                                    <label class="form-check-label" for="filter-libraries">
+                                        Libraries
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="col-6 col-md-3">
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" id="filter-centers" checked>
+                                    <label class="form-check-label" for="filter-centers">
+                                        Cultural centers
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="col-6 col-md-3">
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" id="filter-cafes" checked>
+                                    <label class="form-check-label" for="filter-cafes">
+                                        Language cafes
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Контейнер для карты -->
+        <div id="map-container" style="height: 500px; border-radius: 10px; overflow: hidden;" class="shadow">
+            <div id="map" style="height: 100%; width: 100%;"></div>
+        </div>
+        
+        <div class="row mt-4">
+            <div class="col-md-6">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">How to use the card</h5>
+                        <ul>
+                            <li>Use the search to quickly find places</li>
+                            <li>Filter the results by resource type</li>
+                            <li>Click on the marker to get information.</li>
+                            <li>Use the zoom to view it in detail.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Popular resources in Moscow</h5>
+                        <ul>
+								<li>Library of Foreign Literature</li>
+								<li>The Center of the Russian Language of Moscow State University</li>
+								<li>Polyglot Language Club</li>
+								<li>Language Exchange Cafe "Language Cafe"</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+
+    <footer id="contact" class="bg-dark text-white py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 mb-4">
+                    <h5 class="mb-3">Learn Russian</h5>
+                    <p>Your journey to fluency in Russian begins here.</p>
+                </div>
+                <div class="col-lg-4 mb-4">
+                    <h5 class="mb-3">Contacts</h5>
+                    <p><i class="bi bi-envelope me-2"></i> info@learnrussian.com</p>
+                    <p><i class="bi bi-telephone me-2"></i> +7 (495) 123-45-67</p>
+                    <p><i class="bi bi-geo-alt me-2"></i> Moscow, st. Obrastcova, 25</p>
+                </div>
+                <div class="col-lg-4 mb-4">
+                    <h5 class="mb-3">Social network</h5>
+                    <div class="d-flex gap-3">
+                        <a href="#" class="text-white"><i class="bi bi-facebook fs-4"></i></a>
+                        <a href="#" class="text-white"><i class="bi bi-twitter fs-4"></i></a>
+                        <a href="#" class="text-white"><i class="bi bi-instagram fs-4"></i></a>
+                        <a href="#" class="text-white"><i class="bi bi-youtube fs-4"></i></a>
+                    </div>
+                </div>
+            </div>
+            <hr class="bg-light">
+            <div class="text-center pt-3">
+                <p class="mb-0">&copy; 2026 Learn Russian. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <div class="modal fade" id="applyModal" tabindex="-1">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Applying for the course</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body">
+                    <form id="course-application-form">
+                        <div class="row g-3">
+                            <div class="col-md-6">
+                                <label class="form-label">Cource name</label>
+                                <input type="text" class="form-control" id="modal-course-name" readonly>
+                            </div>
+                            <div class="col-md-6">
+                                <label class="form-label">Tutor</label>
+                                <input type="text" class="form-control" id="modal-course-teacher" readonly>
+                            </div>
+                            <div class="col-md-6">
+                                <label class="form-label">Start Date</label>
+                                <select class="form-select" id="modal-start-date">
+
+                                </select>
+                            </div>
+                            <div class="col-md-6">
+                                <label class="form-label">Class time</label>
+                                <select class="form-select" id="modal-start-time" disabled>
+
+                                </select>
+                            </div>
+                            <div class="col-md-6">
+                                <label class="form-label">Duration</label>
+                                <div class="input-group">
+                                    <input type="text" class="form-control" id="modal-duration" readonly>
+                                    <span class="input-group-text">weeks</span>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <label class="form-label">End Date</label>
+                                <input type="text" class="form-control" id="modal-end-date" readonly>
+                            </div>
+                            <div class="col-md-6">
+                                <label class="form-label">Count of students</label>
+                                <input type="number" class="form-control" id="modal-students" min="1" max="20" value="1">
+                            </div>
+                            <div class="col-md-6">
+                                <label class="form-label">Duration (hours)</label>
+                                <input type="text" class="form-control" id="modal-total-hours" readonly>
+                            </div>
+                            
+                            <!-- Дополнительные опции -->
+                            <div class="col-12">
+                                <h6 class="mt-3 mb-2">Advnced options</h6>
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <div class="form-check mb-2">
+                                            <input class="form-check-input" type="checkbox" id="modal-supplementary">
+                                            <label class="form-check-label" for="modal-supplementary">
+                                                Additional materials (+2000 rub/student)
+                                            </label>
+                                        </div>
+                                        <div class="form-check mb-2">
+                                            <input class="form-check-input" type="checkbox" id="modal-personalized">
+                                            <label class="form-check-label" for="modal-personalized">
+                                                Private lessons (+1500 rub/week)
+                                            </label>
+                                        </div>
+                                        <div class="form-check mb-2">
+                                            <input class="form-check-input" type="checkbox" id="modal-excursions">
+                                            <label class="form-check-label" for="modal-excursions">
+                                                Cultural excursions (+25%)
+                                            </label>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="form-check mb-2">
+                                            <input class="form-check-input" type="checkbox" id="modal-assessment">
+                                            <label class="form-check-label" for="modal-assessment">
+                                                Level assessment (+300 руб)
+                                            </label>
+                                        </div>
+                                        <div class="form-check mb-2">
+                                            <input class="form-check-input" type="checkbox" id="modal-interactive">
+                                            <label class="form-check-label" for="modal-interactive">
+                                                Interactive platform (+50%)
+                                            </label>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="col-12">
+                                <div class="alert alert-info" id="discount-info" style="display: none;">
+
+                                </div>
+                            </div>
+                            
+                            <div class="col-12">
+                                <div class="card bg-light">
+                                    <div class="card-body">
+                                        <h5 class="card-title mb-3">Total cost</h5>
+                                        <div class="d-flex justify-content-between align-items-center">
+                                            <span class="fs-4">Total:</span>
+                                            <span class="fs-3 fw-bold text-primary" id="modal-total-price">0 rub</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+                    <button type="button" class="btn btn-primary" id="submit-application">Send a request</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="tutorRequestModal" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Request a lesson with a tutor</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body">
+                    <form id="tutor-request-form">
+                        <div class="mb-3">
+                            <label class="form-label">Choose a tutor</label>
+                            <select class="form-select" id="request-tutor-select">
+
+                            </select>
+                        </div>
+                        <div class="mb-3">
+                            <label class="form-label">Date of class</label>
+                            <input type="date" class="form-control" id="request-date" required>
+                        </div>
+                        <div class="mb-3">
+                            <label class="form-label">Start time</label>
+                            <input type="time" class="form-control" id="request-time" required>
+                        </div>
+                        <div class="mb-3">
+                            <label class="form-label">Duration (hours)</label>
+                            <input type="number" class="form-control" id="request-duration" min="1" max="40" value="1" required>
+                        </div>
+                        <div class="mb-3">
+                            <label class="form-label">Number of students</label>
+                            <input type="number" class="form-control" id="request-persons" min="1" max="20" value="1" required>
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+                    <button type="button" class="btn btn-primary" id="submit-tutor-request">Send Request</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    
+    <script src="./static/scripts/api.js"></script>
+    <script src="./static/scripts/main.js"></script>
+	
+	<script src="https://api-maps.yandex.ru/2.1/?apikey=8c835689-7b89-4774-9964-f305db9c58f4&lang=ru_RU" type="text/javascript"></script>
+	<script src="./static/scripts/map.js"></script>
+</body>
+</html>
